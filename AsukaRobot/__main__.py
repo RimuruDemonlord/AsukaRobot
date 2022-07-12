@@ -61,11 +61,11 @@ def get_readable_time(seconds: int) -> str:
 
 PM_START_TEXT = """
 *Hey {},*
-*I I'm Hamna Shuji, Tokyo Revengers Themed Group Management bot.*
+*I'm Hamna Shuji, Tokyo Revengers Themed Group Management bot.*
 
 *Hit The The Help Button To Get List Of My Commands.××*
 
-*• @Hanma_Shuji_Sbot Powered By* [SANJIKU NETWORK](https://t.me/Sanjiku_network)
+*• Powered By* [SANJIKU NETWORK](https://t.me/Sanjiku_network)
 """
 
 buttons = [
@@ -79,7 +79,7 @@ buttons = [
                              text="SANJIKU NETWORK",
                              url="https://t.me/Sanjiku_network"),
                        InlineKeyboardButton(
-                             text="About Hanma",
+                             text="About HANMA",
                              callback_data="Hanma_"),
                    ],
                   [
