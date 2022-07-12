@@ -20,7 +20,7 @@ from AsukaRobot.modules.helper_funcs.readable_time import get_readable_time
 AFK_GROUP = 7
 AFK_REPLY_GROUP = 8
 
-AFKVID = "https://telegra.ph/file/c49829f9f5d65947cbc7e.mp4"
+AFKVID = "https://te.legra.ph/file/aa13bce48097f391bc7e3.mp4"
 
 
 def afk(update, context):
