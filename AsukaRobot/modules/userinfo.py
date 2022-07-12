@@ -48,7 +48,7 @@ from AsukaRobot.modules.helper_funcs.chat_status import sudo_plus
 from AsukaRobot.modules.helper_funcs.extraction import extract_user
 from AsukaRobot import telethn
 
-Asuka_IMG = "https://telegra.ph/file/645e0b5ca6382d6d73ab5.jpg"
+Asuka_IMG = "https://te.legra.ph/file/81ebc6f0fa36a9154066c.jpg"
 
 def no_by_per(totalhp, percentage):
     """
