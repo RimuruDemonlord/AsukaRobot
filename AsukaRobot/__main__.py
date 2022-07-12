@@ -65,19 +65,19 @@ PM_START_TEXT = """
 
 *Hit The The Help Button To Get List Of My Commands.××*
 
-*• Powered By* [SANJIKU NETWORK](https://t.me/Sanjiku_network)
+*• Powered By* [Valhalla Network](https://t.me/Valhalla_Network)
 """
 
 buttons = [
     [
                         InlineKeyboardButton(
-                             text="➕️ Add Hanma To Your Chat ➕️",
+                             text="➕️ Add HANMA To Your Chat ➕️",
                              url="https://t.me/Hanma_Shuji_Sbot?startgroup=true"),
                     ],
                    [
                        InlineKeyboardButton(
-                             text="SANJIKU NETWORK",
-                             url="https://t.me/Sanjiku_network"),
+                             text="Valhalla Network",
+                             url="https://t.me/Valhalla_Network"),
                        InlineKeyboardButton(
                              text="About HANMA",
                              callback_data="Hanma_"),
@@ -116,7 +116,7 @@ ABOUT3 = """Hello [{}], My name is *Asuka Langley Soryu*. A Powerful Telegram Gr
             \n\n*If you have any Question, You can join Support Chat. My Developer Team will Answer. Check Support Button Below*"""
 
 HELP_STRINGS = """
-Hey [{}] *Asuka* here!
+Hey [{}] *Hanma* here!
 I Help Admins To Manage Their Groups!
 Main commands available :
  ‣ /help: PM's you this message.
@@ -128,9 +128,6 @@ Main commands available :
 For all command use / or !
 """
 
-ACRUISE = """
-💫 𝐏𝐥𝐞𝐚𝐬𝐞 𝐉𝐨𝐢𝐧 @Anime_Cruise !!!
-"""
 
 Asuka_IMG = (
       "https://telegra.ph/file/645e0b5ca6382d6d73ab5.jpg",
