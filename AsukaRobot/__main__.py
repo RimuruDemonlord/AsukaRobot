@@ -60,31 +60,27 @@ def get_readable_time(seconds: int) -> str:
     return ping_time
 
 PM_START_TEXT = """
-*Hey B!tch {},*
-*Myself 𝗔𝘀𝘂𝗸𝗮 𝗟𝗮𝗻𝗴𝗹𝗲𝘆 𝗦𝗼𝗿𝘆𝘂, Pilot On Evangelion Unit-02 As Well As A Powerful Group Management Bot.*
-
-❍ *EVA Unit - 02*
-❍ *Uptime* - {}
-❍ *Python Version* - {}
+*Hey {},*
+*I I'm Hamna Shuji, Tokyo Revengers Themed Group Management bot.*
 
 *Hit The The Help Button To Get List Of My Commands.××*
 
-*• @AsukaRobot Powered By* [𝗞𝗮𝗶𝘇𝘂𝗿𝘆𝘂](https://t.me/TheKaizuryu)
+*• @Hanma_Shuji_Sbot Powered By* [SANJIKU NETWORK](https://t.me/Sanjiku_network)
 """
 
 buttons = [
     [
                         InlineKeyboardButton(
-                             text="➕️ Add Asuka To Your Chat ➕️",
-                             url="https://t.me/AsukaRobot?startgroup=true"),
+                             text="➕️ Add Hanma To Your Chat ➕️",
+                             url="https://t.me/Hanma_Shuji_Sbot?startgroup=true"),
                     ],
                    [
                        InlineKeyboardButton(
-                             text="Kaizuryu",
-                             url="https://t.me/TheKaizuryu"),
+                             text="SANJIKU NETWORK",
+                             url="https://t.me/Sanjiku_network"),
                        InlineKeyboardButton(
-                             text="About Asuka",
-                             callback_data="asuka_"),
+                             text="About Hanma",
+                             callback_data="Hanma_"),
                    ],
                   [
                         InlineKeyboardButton(
