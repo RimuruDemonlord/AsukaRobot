@@ -105,7 +105,7 @@ REPO_TXT = """
 • Report Any Kind Of Bugs At [Support](t.me/AsukaSupport)
 """
 
-ABOUT3 = """Hello [{}], My name is *Asuka Langley Soryu*. A Powerful Telegram Group Management Bot built to help you manage Group easily.
+ABOUT3 = """Hello [{}], My name is *Hanma Shuji*. A Powerful Telegram Group Management Bot built to help you manage Group easily.
             \n ‣ I can Restrict Users.
             \n ‣ I can Greet Users with customizable welcome message and even set a group rules
             \n ‣ I have an advanced Anti-Flood System which will help you to safe group from Spammmer.
@@ -156,7 +156,7 @@ PM_PHOTO = "https://te.legra.ph/file/de03454cc183816f91b7c.mp4"
 
 Asuka_DISPACHER_PIC = "https://te.legra.ph/file/2de191efc2824cbd76e28.jpg"
 
-DONATE_STRING = """ Adding Me To Your Groups Is Donation For Me Though I Would Appreciate If You Join My Creator's Network @TheKaizuryu"""
+DONATE_STRING = """ Adding Me To Your Groups Is Donation For Me Though I Would Appreciate If You Join My Creator's Network @Valhalla_Network"""
 
 IMPORTED = {}
 MIGRATEABLE = []
@@ -452,8 +452,8 @@ def about_callback_data(update, context):
             reply_markup=InlineKeyboardMarkup(
                 [
                  [
-                    InlineKeyboardButton(text="Support", url="t.me/AsukaSupport"),
-                    InlineKeyboardButton(text="Updates", url="t.me/AsukaUpdates"),
+                    InlineKeyboardButton(text="Support", url="t.me/HANMAxSUPPORT_0"),
+                    InlineKeyboardButton(text="Updates", url="t.me/HamnaXUpdates"),
                  ],
                  [
                     InlineKeyboardButton(text="Back", callback_data="asuka_")
