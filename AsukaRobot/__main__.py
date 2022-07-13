@@ -137,7 +137,7 @@ Asuka_IMG = (
       "https://telegra.ph/file/3c6cb9b50381170c95278.jpg",
 )
 
-TEXXT = "Yes B!tch, I Am Alive And Working Fine.\nCheck Out The Buttons Mentioned Below.",
+TEXXT = "Yes {}, I Am Alive And Working Fine.\nCheck Out The Buttons Mentioned Below.",
 
 Asuka_N_IMG = (
       "https://telegra.ph/file/0b5e88c90238c357641a7.jpg",
