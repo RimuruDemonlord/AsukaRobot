@@ -494,8 +494,8 @@ def stats(update, context):
                 [
                   [                  
                        InlineKeyboardButton(
-                             text="Add Me
-                             url="https://t.me/Hanma_Shuji_Sbot?startgroup=true
+                             text="Repo",
+                             url="t.me/AsukaSupport")
                      ] 
                 ]
             ),
