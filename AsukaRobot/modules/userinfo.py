@@ -316,22 +316,22 @@ def info(update: Update, context: CallbackContext):
     disaster_level_present = False
 
     if user.id == OWNER_ID:
-        text += "\n\n• Disaster Level: God"
+        text += "\n\n• Disaster Level: PRESIDENT"
         disaster_level_present = True
     elif user.id in DEV_USERS:
-        text += "\n\n• Disaster Level: Evangelion Master"
+        text += "\n\n• Disaster Level: Manager"
         disaster_level_present = True
     elif user.id in DRAGONS:
-        text += "\n\n• Disaster Levl: Evangelion Pilot"
+        text += "\n\n• Disaster Levl: Commander"
         disaster_level_present = True
     elif user.id in DEMONS:
-        text += "\n\n• Disaster Level: Evangelion 3.0"
+        text += "\n\n• Disaster Levl: Vice commander"
         disaster_level_present = True
     elif user.id in TIGERS:
-        text += "\n\n• Disaster Level: Evangelion 2.0"
+        text += "\n\n• Disaster Level: CAPTAIN"
         disaster_level_present = True
     elif user.id in WOLVES:
-        text += "\n\n• Disaster Level: Evengalion 1.0"
+        text += "\n\n• Disaster Level: Vice captain"
         disaster_level_present = True
     try:
         user_member = chat.get_member(user.id)
@@ -494,8 +494,8 @@ def stats(update, context):
                 [
                   [                  
                        InlineKeyboardButton(
-                             text="Repo",
-                             url="t.me/AsukaSupport")
+                             text="Add Me
+                             url="https://t.me/Hanma_Shuji_Sbot?startgroup=true
                      ] 
                 ]
             ),
