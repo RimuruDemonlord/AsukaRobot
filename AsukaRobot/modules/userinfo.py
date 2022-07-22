@@ -472,7 +472,7 @@ def stats(update, context):
                   [                  
                        InlineKeyboardButton(
                             
-                             url="t.me/HANMAxSUPPORT_0")
+                             url="t.me/lolologancuhfisb")
                      ] 
                 ]
             ),
@@ -494,8 +494,8 @@ def stats(update, context):
                 [
                   [                  
                        InlineKeyboardButton(
-                             text="Repo",
-                             url="t.me/AsukaSupport")
+                             text="Owner",
+                             url="t.me/SID_HANMA")
                      ] 
                 ]
             ),
