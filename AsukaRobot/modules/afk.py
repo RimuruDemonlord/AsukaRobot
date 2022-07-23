@@ -20,7 +20,7 @@ from AsukaRobot.modules.helper_funcs.readable_time import get_readable_time
 AFK_GROUP = 7
 AFK_REPLY_GROUP = 8
 
-AFKVID = "https://te.legra.ph/file/aa13bce48097f391bc7e3.mp4"
+AFKVID = "https://te.legra.ph/file/d39ec5ce492c2e37cb045.mp4"
 
 
 def afk(update, context):
@@ -38,7 +38,7 @@ def afk(update, context):
     fname = update.effective_user.first_name
     try:
         update.effective_message.reply_video(
-            AFKVID,caption="Byii Byiii {}!".format(fname))
+            AFKVID,caption="Bye {}!".format(fname))
     except BadRequest:
         pass
 
@@ -61,7 +61,7 @@ def no_longer_afk(update, context):
             options = [
                 "The Dead {} Came Back From His Grave! Time Taken: {}",
                 "Hey {} Darling, Welcome Back! We Were Apart For {}",
-                "{} Came Back After Masturbating! Time Taken: {}",
+                "{} is back in the chat Time Taken: {}",
                 "OwO, Welcome Back {}! You Were Missing Since {} ",
             ]
             chosen_option = random.choice(options)
@@ -130,7 +130,7 @@ def check_afk(update, context, user_id, fst_name, userc_id):
         if int(userc_id) == int(user_id):
             return
         if reason == "none":
-            res = "{} Is With Your GF!\nLast Seen Here: {} Ago.".format(fst_name, since_afk)
+            res = "{} Is busy right now!\nLast Seen Here: {} Ago.".format(fst_name, since_afk)
         else:
             res = "{} Is Dead!\nReason: {}\nLast Liveliness: {} Ago.".format(fst_name, reason, since_afk)
 
