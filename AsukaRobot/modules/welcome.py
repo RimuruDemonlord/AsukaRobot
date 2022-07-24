@@ -206,7 +206,7 @@ def new_member(update: Update, context: CallbackContext):
             # Welcome Devs
             elif new_mem.id in DEV_USERS:
                 update.effective_message.reply_text(
-                    "Whoa! An Evengalion Master Joined Your Chat",
+                    "Whoa! Manager Joined Your Chat",
                     reply_to_message_id=reply,
                 )
                 continue
@@ -214,7 +214,7 @@ def new_member(update: Update, context: CallbackContext):
             # Welcome Sudos
             elif new_mem.id in DRAGONS:
                 update.effective_message.reply_photo(
-                Asuka, caption= "Huh! An Evangalion Pilot Joined Your Chat",
+                Asuka, caption= "Huh! Commander Just Joined Your Chat",
                     reply_to_message_id=reply,
                 )
                 continue
@@ -222,7 +222,7 @@ def new_member(update: Update, context: CallbackContext):
             # Welcome Support
             elif new_mem.id in DEMONS:
                 update.effective_message.reply_photo(
-                Asuka, caption= "Huh! Someone with a Evangelion 3.0 level just joined!",
+                Asuka, caption= "Huh! Someone with a Vice Commander just joined!",
                     reply_to_message_id=reply,
                 )
                 continue
