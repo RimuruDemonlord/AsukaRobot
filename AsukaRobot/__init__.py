@@ -4,7 +4,7 @@ import sys
 import time
 import spamwatch
 import aiohttp
-
+from AsukaRobot.services.quoteapi import Quotly
 import telegram.ext as tg
 from redis import StrictRedis
 from Python_ARQ import ARQ
@@ -13,6 +13,10 @@ from telethon.sessions import StringSession
 from telethon import TelegramClient
 from aiohttp import ClientSession
 from motor.motor_asyncio import AsyncIOMotorClient as MongoClient
+
+#--------------------#
+quotly = Quotly()
+#--------------------#
 
 StartTime = time.time()
 
