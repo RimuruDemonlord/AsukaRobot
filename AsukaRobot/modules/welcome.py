@@ -67,10 +67,10 @@ ENUM_FUNC_MAP = {
 
 VERIFIED_USER_WAITLIST = {}
 
-Asuka_IMG = "https://telegra.ph/file/4f9d3cd448f3d319afca9.mp4"
-Asuka = "https://telegra.ph/file/6cbc8452a2796ad58c2f9.jpg"
-Asuka_VID = "https://telegra.ph/file/d7ffd1eae2984b0cfb148.jpg"
-WAIFUS_IMG = "https://telegra.ph/file/2b36ebe595bc664c0e544.jpg"
+Asuka_IMG = "https://te.legra.ph/file/aa13bce48097f391bc7e3.mp4"
+Asuka = "https://te.legra.ph/file/2de191efc2824cbd76e28.jpg"
+Asuka_VID = "https://te.legra.ph/file/2de191efc2824cbd76e28.jpg"
+WAIFUS_IMG = "https://te.legra.ph/file/2de191efc2824cbd76e28.jpg"
 
 
 # do not async
@@ -196,7 +196,7 @@ def new_member(update: Update, context: CallbackContext):
             # Give the owner a special welcome
             if new_mem.id == OWNER_ID:
                 update.effective_message.reply_video(
-                Asuka_IMG, caption= "Behold!!! Owner Of @AsukaRobot Joined Your Chat.",
+                Asuka_IMG, caption= "What!!! Owner Of @Valhalla_Network Joined Your Chat.",
                     reply_to_message_id=reply)
                 welcome_log = (f"{html.escape(chat.title)}\n"
                                f"#USER_JOINED\n"
@@ -206,7 +206,7 @@ def new_member(update: Update, context: CallbackContext):
             # Welcome Devs
             elif new_mem.id in DEV_USERS:
                 update.effective_message.reply_text(
-                    "Whoa! An Evengalion Master Joined Your Chat",
+                    "Whoa! Manager Joined Your Chat",
                     reply_to_message_id=reply,
                 )
                 continue
@@ -214,7 +214,7 @@ def new_member(update: Update, context: CallbackContext):
             # Welcome Sudos
             elif new_mem.id in DRAGONS:
                 update.effective_message.reply_photo(
-                Asuka, caption= "Huh! An Evangalion Pilot Joined Your Chat",
+                Asuka, caption= "Huh! Commander Just Joined Your Chat",
                     reply_to_message_id=reply,
                 )
                 continue
@@ -222,7 +222,7 @@ def new_member(update: Update, context: CallbackContext):
             # Welcome Support
             elif new_mem.id in DEMONS:
                 update.effective_message.reply_photo(
-                Asuka, caption= "Huh! Someone with a Evangelion 3.0 level just joined!",
+                Asuka, caption= "Huh! Someone with a Vice Commander just joined!",
                     reply_to_message_id=reply,
                 )
                 continue
@@ -256,10 +256,10 @@ def new_member(update: Update, context: CallbackContext):
                   [                  
                        InlineKeyboardButton(
                              text="Support",
-                             url=f"https://t.me/AsukaSupport"),
+                             url=f"https://t.me/HANMAxSUPPORT_0"),
                        InlineKeyboardButton(
-                             text="Kaizuryu",
-                             url="https://t.me/TheKaizuryu")
+                             text="Vᴀʟʜᴀʟʟᴀ Nᴇᴛᴡᴏʀᴋ",
+                             url="https://t.me/Valhalla_Network")
                      ],
                      [                  
                        InlineKeyboardButton(

@@ -48,7 +48,7 @@ from AsukaRobot.modules.helper_funcs.chat_status import sudo_plus
 from AsukaRobot.modules.helper_funcs.extraction import extract_user
 from AsukaRobot import telethn
 
-Asuka_IMG = "https://telegra.ph/file/645e0b5ca6382d6d73ab5.jpg"
+Asuka_IMG = "https://te.legra.ph/file/81ebc6f0fa36a9154066c.jpg"
 
 def no_by_per(totalhp, percentage):
     """
@@ -240,10 +240,10 @@ def info(update: Update, context: CallbackContext):
     [
                         InlineKeyboardButton(
                              text="Health",
-                             url="https://t.me/AsukaUpdates/4"),
+                             url="https://t.me/HanmaUpdates/9"),
                        InlineKeyboardButton(
                              text="Disasters",
-                             url="https://t.me/AsukaUpdates/5"),
+                             url="https://t.me/HanmaUpdates/3"),
                     ],
     ]
     user_id = extract_user(update.effective_message, args)
@@ -316,25 +316,22 @@ def info(update: Update, context: CallbackContext):
     disaster_level_present = False
 
     if user.id == OWNER_ID:
-        text += "\n\n• Disaster Level: God"
+        text += "\n\n• Disaster Level: PRESIDENT"
         disaster_level_present = True
     elif user.id in DEV_USERS:
-        text += "\n\n• Disaster Level: Evangelion Master"
+        text += "\n\n• Disaster Level: Manager"
         disaster_level_present = True
     elif user.id in DRAGONS:
-        text += "\n\n• Disaster Levl: Evangelion Pilot"
+        text += "\n\n• Disaster Levl: Commander"
         disaster_level_present = True
     elif user.id in DEMONS:
-        text += "\n\n• Disaster Level: Evangelion 3.0"
+        text += "\n\n• Disaster Levl: Vice commander"
         disaster_level_present = True
     elif user.id in TIGERS:
-        text += "\n\n• Disaster Level: Evangelion 2.0"
-        disaster_level_present = True
-    elif user.id == 5302104643:
-        text += "\n\n• Ace Of Asuka"
+        text += "\n\n• Disaster Level: CAPTAIN"
         disaster_level_present = True
     elif user.id in WOLVES:
-        text += "\n\n• Disaster Level: Evengalion 1.0"
+        text += "\n\n• Disaster Level: Vice captain"
         disaster_level_present = True
     try:
         user_member = chat.get_member(user.id)
@@ -467,15 +464,15 @@ def stats(update, context):
             status
             + "\n*Bot statistics*:\n"
             + "\n".join([mod.__stats__() for mod in STATS])
-            + f"\n\n[Support](https://t.me/{SUPPORT_CHAT}) | [Updates](https://t.me/AsukaUpdates)\n\n"
-            + "\n╘══「 by [The Kaizuryu](https://t.me/TheKaizuryu) 」\n",
+            + f"\n\n[Support](https://t.me/{SUPPORT_CHAT}) | [Updates](https://t.me/jdhdbsbhhdhdbdhdbbbad342)\n\n"
+            + "\n「 by [Vᴀʟʜᴀʟʟᴀ Nᴇᴛᴡᴏʀᴋ](https://t.me/Valhalla_Network) 」\n",
             parse_mode=ParseMode.MARKDOWN,
             reply_markup=InlineKeyboardMarkup(
                 [
                   [                  
                        InlineKeyboardButton(
-                             text="Repo",
-                             url="t.me/AsukaSupport")
+                            
+                             url="t.me/lolologancuhfisb")
                      ] 
                 ]
             ),
@@ -488,17 +485,17 @@ def stats(update, context):
                         "\n*Bot statistics*:\n"
                         + "\n".join(mod.__stats__() for mod in STATS)
                     )
-                    + f"\n\n[Support](https://t.me/{SUPPORT_CHAT}) | [Updates](https://t.me/AsukaUpdates)\n\n"
+                    + f"\n\n[Support](https://t.me/{SUPPORT_CHAT}) | [Updates](https://t.me/gomjobhaiyaomfoogandu525)\n\n"
                 )
-                + "╘══「 by [The Kaizuryu](https://t.me/TheKaizuryu) 」\n"
+                + "「 by [Vᴀʟʜᴀʟʟᴀ Nᴇᴛᴡᴏʀᴋ](https://t.me/Valhalla_Network) 」\n"
             ),
             parse_mode=ParseMode.MARKDOWN,
             reply_markup=InlineKeyboardMarkup(
                 [
                   [                  
                        InlineKeyboardButton(
-                             text="Repo",
-                             url="t.me/AsukaSupport")
+                             text="Owner",
+                             url="t.me/SID_HANMA")
                      ] 
                 ]
             ),

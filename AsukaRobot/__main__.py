@@ -60,31 +60,27 @@ def get_readable_time(seconds: int) -> str:
     return ping_time
 
 PM_START_TEXT = """
-*Hey B!tch {},*
-*Myself 𝗔𝘀𝘂𝗸𝗮 𝗟𝗮𝗻𝗴𝗹𝗲𝘆 𝗦𝗼𝗿𝘆𝘂, Pilot On Evangelion Unit-02 As Well As A Powerful Group Management Bot.*
-
-❍ *EVA Unit - 02*
-❍ *Uptime* - {}
-❍ *Python Version* - {}
+*Hey {},*
+*I'm Hamna Shuji, Tokyo Revengers Themed Group Management bot.*
 
 *Hit The The Help Button To Get List Of My Commands.××*
 
-*• @AsukaRobot Powered By* [𝗞𝗮𝗶𝘇𝘂𝗿𝘆𝘂](https://t.me/TheKaizuryu)
+*• Powered By* [Valhalla Network](https://t.me/Valhalla_Network)
 """
 
 buttons = [
     [
                         InlineKeyboardButton(
-                             text="➕️ Add Asuka To Your Chat ➕️",
-                             url="https://t.me/AsukaRobot?startgroup=true"),
+                             text="➕️ Add HANMA To Your Chat ➕️",
+                             url="https://t.me/Hanma_Shuji_Sbot?startgroup=true"),
                     ],
                    [
                        InlineKeyboardButton(
-                             text="Kaizuryu",
-                             url="https://t.me/TheKaizuryu"),
+                             text="Valhalla Network",
+                             url="https://t.me/Valhalla_Network"),
                        InlineKeyboardButton(
-                             text="About Asuka",
-                             callback_data="asuka_"),
+                             text="About HANMA",
+                             callback_data="Hanma_"),
                    ],
                   [
                         InlineKeyboardButton(
@@ -98,7 +94,7 @@ ABOUT1 = """
 """
 
 ABOUT2 = """
-*‣ Asuka Support Chats*\nJoin My Support Group/Channel For Reporting Problems And Updates On @AsukaRobot.
+*‣ Hanma Support Chats*\nJoin My Support Group/Channel For Reporting Problems And Updates On @AsukaRobot.
 """
 
 REPO_TXT = """
@@ -109,7 +105,7 @@ REPO_TXT = """
 • Report Any Kind Of Bugs At [Support](t.me/AsukaSupport)
 """
 
-ABOUT3 = """Hello [{}], My name is *Asuka Langley Soryu*. A Powerful Telegram Group Management Bot built to help you manage Group easily.
+ABOUT3 = """Hello [{}], My name is *Hanma Shuji*. A Powerful Telegram Group Management Bot built to help you manage Group easily.
             \n ‣ I can Restrict Users.
             \n ‣ I can Greet Users with customizable welcome message and even set a group rules
             \n ‣ I have an advanced Anti-Flood System which will help you to safe group from Spammmer.
@@ -120,7 +116,7 @@ ABOUT3 = """Hello [{}], My name is *Asuka Langley Soryu*. A Powerful Telegram Gr
             \n\n*If you have any Question, You can join Support Chat. My Developer Team will Answer. Check Support Button Below*"""
 
 HELP_STRINGS = """
-Hey [{}] *Asuka* here!
+Hey [{}] *Hanma* here!
 I Help Admins To Manage Their Groups!
 Main commands available :
  ‣ /help: PM's you this message.
@@ -132,16 +128,6 @@ Main commands available :
 For all command use / or !
 """
 
-ACRUISE = """
-💫 𝐏𝐥𝐞𝐚𝐬𝐞 𝐉𝐨𝐢𝐧 @Anime_Cruise !!!
-
-• 𝐔𝐩𝐥𝐨𝐚𝐝𝐢𝐧𝐠 𝐀𝐥𝐥 𝐋𝐚𝐭𝐞𝐬𝐭 𝐀𝐧𝐢𝐦𝐞𝐬.
-• 𝐇𝐢𝐠𝐡 𝐐𝐮𝐚𝐥𝐢𝐭𝐲 𝐀𝐧𝐢𝐦𝐞, 𝐋𝐨𝐰 𝐒𝐢𝐳𝐞.
-• 𝐅𝐚𝐬𝐭𝐞𝐬𝐭 𝐔𝐩𝐥𝐨𝐚𝐝𝐢𝐧𝐠 𝐎𝐟 𝐑𝐞𝐪𝐮𝐞𝐬𝐭𝐞𝐝 𝐀𝐧𝐢𝐦𝐞𝐬
-• 24/7 𝐀𝐧𝐢𝐦𝐞 𝐑𝐞𝐪𝐮𝐞𝐬𝐭𝐬 𝐀𝐜𝐜𝐞𝐩𝐭𝐞𝐝.
-
-✨ 𝐖𝐞 𝐑𝐞𝐪𝐮𝐞𝐬𝐭 𝐘𝐨𝐮𝐫 𝐒𝐮𝐩𝐩𝐨𝐫𝐭 & 𝐘𝐨𝐮 𝐑𝐞𝐪𝐮𝐞𝐬𝐭 𝐀𝐧𝐢𝐦𝐞𝐬.🤍✨
-"""
 
 Asuka_IMG = (
       "https://telegra.ph/file/645e0b5ca6382d6d73ab5.jpg",
@@ -151,7 +137,7 @@ Asuka_IMG = (
       "https://telegra.ph/file/3c6cb9b50381170c95278.jpg",
 )
 
-TEXXT = "Yes B!tch, I Am Alive And Working Fine.\nCheck Out The Buttons Mentioned Below.",
+TEXXT = "Yes, I Am Alive And Working Fine.\nCheck Out The Buttons Mentioned Below.",
 
 Asuka_N_IMG = (
       "https://telegra.ph/file/0b5e88c90238c357641a7.jpg",
@@ -166,11 +152,11 @@ Asuka_PIC = "https://telegra.ph/file/eedea672a770ec92363bd.jpg"
 
 Asuka_VID = "https://telegra.ph/file/8d49b6f49362e7778785e.jpg"
 
-PM_PHOTO = "https://telegra.ph/file/fefd65c0e2ccb00453407.jpg"
+PM_PHOTO = "https://te.legra.ph/file/de03454cc183816f91b7c.mp4"
 
-Asuka_DISPACHER_PIC = "https://telegra.ph/file/d03f381c8178a8fd2dc27.jpg"
+Asuka_DISPACHER_PIC = "https://te.legra.ph/file/2de191efc2824cbd76e28.jpg"
 
-DONATE_STRING = """ Adding Me To Your Groups Is Donation For Me Though I Would Appreciate If You Join My Creator's Network @TheKaizuryu"""
+DONATE_STRING = """ Adding Me To Your Groups Is Donation For Me Though I Would Appreciate If You Join My Creator's Network @Valhalla_Network"""
 
 IMPORTED = {}
 MIGRATEABLE = []
@@ -291,8 +277,8 @@ def start(update: Update, context: CallbackContext):
             first_name = update.effective_user.full_name
             id = update.effective_user.id
 
-            update.effective_message.reply_photo(
-                photo=(PM_PHOTO),
+            update.effective_message.reply_video(
+                video=(PM_PHOTO),
                 caption=PM_START_TEXT.format(
                     escape_markdown(first_name),
                     escape_markdown(uptime),
@@ -311,11 +297,8 @@ def start(update: Update, context: CallbackContext):
                 [
                   [
                        InlineKeyboardButton(
-                             text="Join",
+                             text="Join Else You Gay",
                              url="t.me/Anime_Cruise"),
-                       InlineKeyboardButton(
-                             text="Index",
-                             url="t.me/Cruise_Index/5")
                      ]
                 ]
             ),
@@ -325,18 +308,18 @@ def start(update: Update, context: CallbackContext):
         first = update.effective_user.full_name
         chat = update.effective_chat.title
         update.effective_message.reply_video(
-                video="https://telegra.ph/file/c49829f9f5d65947cbc7e.mp4",
-                caption="Yes B!tch, I Am Alive And Working Fine. \nCheck Out The Buttons Mentioned Below.",
+                video="https://te.legra.ph/file/de03454cc183816f91b7c.mp4",
+                caption="oi oi oi, I'm Alive And Working Fine. \nCheck Out The Buttons Mentioned Below.",
             parse_mode=ParseMode.HTML,
             reply_markup=InlineKeyboardMarkup(
                 [
                   [
                        InlineKeyboardButton(
                              text="Support",
-                             url="t.me/AsukaSupport"),
+                             url="t.me/HANMAxSUPPORT_0"),
                        InlineKeyboardButton(
                              text="Updates",
-                             url="t.me/AsukaUpdates")
+                             url="t.me/hamnaxupdates")
                      ]
                 ]
             ),
@@ -469,8 +452,8 @@ def about_callback_data(update, context):
             reply_markup=InlineKeyboardMarkup(
                 [
                  [
-                    InlineKeyboardButton(text="Support", url="t.me/AsukaSupport"),
-                    InlineKeyboardButton(text="Updates", url="t.me/AsukaUpdates"),
+                    InlineKeyboardButton(text="Support", url="t.me/HANMAxSUPPORT_0"),
+                    InlineKeyboardButton(text="Updates", url="t.me/HamnaXUpdates"),
                  ],
                  [
                     InlineKeyboardButton(text="Back", callback_data="asuka_")
@@ -809,13 +792,13 @@ def main():
     if SUPPORT_CHAT is not None and isinstance(SUPPORT_CHAT, str):
         try:
             name = dispatcher.bot.first_name
-            m = dispatcher.bot.send_photo(f"@{SUPPORT_CHAT}", Asuka_DISPACHER_PIC, caption=f"*{name} Started!\n• Evangelion Unit-02 Booted Up!\n*• Let's Get The Party Started!", parse_mode=ParseMode.MARKDOWN,
+            m = dispatcher.bot.send_photo(f"@{SUPPORT_CHAT}", Asuka_DISPACHER_PIC, caption=f"*{name} Started!\n• Who Said The Fight Is Over?!", parse_mode=ParseMode.MARKDOWN,
             reply_markup=InlineKeyboardMarkup(
                 [
                   [
                        InlineKeyboardButton(
                              text="Off-Topic",
-                             url="https://t.me/Anime_Chat_XKaizuryu")
+                             url="https://t.me/Anime_Club_SID")
                      ]
                 ]
             ),
